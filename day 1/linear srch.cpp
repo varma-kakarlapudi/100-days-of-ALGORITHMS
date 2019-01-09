@@ -42,5 +42,5 @@ TIME COMPLEXITY of SUCCESS searching:
     
     
 TIME COMPLEXITY of UN-SUCCESSFUL Searching :
-	BEST CASE : O(n)
-	WORST CASE: O(n)  //here n is size of the array
+
+	ANY CASE: O(n)  //here n is size of the array
