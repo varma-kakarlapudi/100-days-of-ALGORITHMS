@@ -1,5 +1,5 @@
 # 100-days-of-ALGORITHMS
-impleenting 1 algorithm a day.
+implementing 1 algorithm a day.
 
 
 @ DAY 1  :
@@ -41,3 +41,14 @@ JUMP SEARCH :
        ##  ------> for this searching technique the array on which we perform searching is should be sorted .
        
 https://www.geeksforgeeks.org/jump-search/   (for further explanation you can also refer this link )
+
+
+@ DAY 4 :
+PRIME USING SEIVE METHOD :
+ 
+        It takes an Array of Size N and removes all the multiples of 2,3 ans so on .. and then finallay printing the other elements             which are not visited . This method is used to REDUCE the time taken by normal Primes program .
+        
+https://www.geeksforgeeks.org/sieve-of-eratosthenes/  (for further explanation you can also refer this link )
+
+@ DAY 5 :
+ yet to do..
