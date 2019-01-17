@@ -51,4 +51,9 @@ PRIME USING SEIVE METHOD :
 https://www.geeksforgeeks.org/sieve-of-eratosthenes/  (for further explanation you can also refer this link )
 
 @ DAY 5 :
- yet to do..
+BUBBLE SORT :
+
+        It is one of the easiest Sorting algorithm which just completes in O(n^2) time .
+        There are various algorithms which can do this same work in less time ..lets discuss them on later days.
+     
+ https://www.geeksforgeeks.org/bubble-sort/    (for further explanation you can also refer this link )
