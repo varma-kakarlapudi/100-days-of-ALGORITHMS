@@ -26,8 +26,10 @@ LINEAR SEARCH :
 @ DAY 2 :
 BINARY SEARCH :
 
-        It is one of the searching technique which is used on a regularly basis by many programmers. this searching technique takes less           time when compared to LINEAR search program .This program can be implemented using recursion .
-         ##  ------> for this searching technique the array on which we perform searching is should be sorted .
+        It is one of the searching technique which is used on a regularly basis by many programmers.
+        This searching technique takes less time when compared to LINEAR search program .
+        This program can be implemented using recursion .
+  ##  ------> for this searching technique the array on which we perform searching is should be sorted .
          
  https://www.geeksforgeeks.org/binary-search/
  
@@ -37,8 +39,10 @@ https://www.techiedelight.com/binary-search/  (for clearing understanding you ca
 @ DAY 3 :
 JUMP SEARCH :
  
-       It is another searching technique whose timecomplexity is almost siilar to BINARY SEARCH . here in this search we jump from 2 to        4 then 8 then 16 and then 32 and so on .. so that the no of elements we search will decrease by a greater extent whencompared to        LINEAR SEARCH .
-       ##  ------> for this searching technique the array on which we perform searching is should be sorted .
+       It is another searching technique whose timecomplexity is almost siilar to BINARY SEARCH . 
+       Here in this search we jump from 2 to  4 then 8 then 16 and then 32 and so on .. 
+       so that the no of elements we search will decrease by a greater extent whencompared to LINEAR SEARCH .
+  ##  ------> for this searching technique the array on which we perform searching is should be sorted .
        
 https://www.geeksforgeeks.org/jump-search/   (for further explanation you can also refer this link )
 
@@ -46,7 +50,9 @@ https://www.geeksforgeeks.org/jump-search/   (for further explanation you can al
 @ DAY 4 :
 PRIME USING SEIVE METHOD :
  
-        It takes an Array of Size N and removes all the multiples of 2,3 ans so on .. and then finallay printing the other elements             which are not visited . This method is used to REDUCE the time taken by normal Primes program .
+        It takes an Array of Size N and removes all the multiples of 2,3 ans so on .. and then finallay ,
+        printing the other elements  which are not visited .
+   This method is used to REDUCE the time taken by normal Primes program .
         
 https://www.geeksforgeeks.org/sieve-of-eratosthenes/  (for further explanation you can also refer this link )
 
