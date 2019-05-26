@@ -1,0 +1,78 @@
+QUESTION ::
+
+https://www.hackerrank.com/challenges/reduced-string/problem
+
+REFERRENCE ::
+
+https://www.geeksforgeeks.org/remove-characters-alphabets-string/
+
+SOLUTION ::
+
+Simply we have to  chech  i and i+1  index ..if they are same we have to reomve them 
+
+to remove letters in a string
+
+in CPP           ::   s.erase(i,1)
+
+in PYTHON  ::   s.replace(i,' ')  
+
+
+EDITORIAL  SOLUTION ::
+ 
+//  cpp
+
+#include<bits/stdc++.h>
+using namespace std;
+#define rep(i,n) for(int i=0;i<n;i++)
+#define ll  long long int
+#define pi pair<ll,ll>
+#define pii pair<ll,pi>
+#define f first
+#define mp make_pair
+#define mod 1000000007
+#define s second
+#define pb push_back
+int main(){
+
+    string S;
+    cin >> S;
+    vector<char>ans;
+    rep(i,S.length()){
+        if(ans.size()==0 or S[i]!=ans.back()) ans.pb(S[i]);
+        else ans.pop_back();
+    }
+    if(ans.size()==0) cout<<"Empty String";
+    else{
+        for(auto x:ans) cout<<x;
+    }
+}
+
+
+// java
+
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String s = scan.next();
+        scan.close();
+        
+        while (true) {
+            // Used for loop termination
+            int len = s.length();
+            
+            // "(.)" is a capturing group that captures any character
+            // "\\1" is a backreference that will match the character captured by the first capturing group (i.e. the one captured by "(.)")
+            s = s.replaceAll("(.)\\1", "");
+            
+            // If no changes were made to string, break loop
+            if( s.length() == len ){
+                break;
+            }
+        }
+
+        System.out.println( (s.isEmpty()) ? "Empty String" : s);
+    }
+}
