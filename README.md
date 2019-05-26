@@ -66,3 +66,13 @@ BUBBLE SORT :
         from this we can learn how to remove elements froma string either modifying the same string or 
         editing substring printing the substring ..
         you can refer the Text-file in Day 6 folder for detailed understanding..!!
+        
+ @ Day 7 :
+ 
+ Knapsack :
+ 
+        Knapsack is a kind of Bag . 
+        Here we try to maximize the Profit by addings the elements into the bag .
+        finally we have to print the profit earned .
+        
+        method 2 : we can do this problem using Vectors in c++ STL.
