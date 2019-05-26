@@ -23,7 +23,7 @@ BINARY SEARCH :
         It is one of the searching technique which is used on a regularly basis by many programmers.
         This searching technique takes less time when compared to LINEAR search program .
         This program can be implemented using recursion .
-  ##  ------> for this searching technique the array on which we perform searching is should be sorted .
+  ##  ------> for this search technique the array on which we perform searching should be sorted .
          
  https://www.geeksforgeeks.org/binary-search/
  
@@ -36,7 +36,7 @@ JUMP SEARCH :
        It is another searching technique whose timecomplexity is almost similar to BINARY SEARCH . 
        Here in this search we jump from 2 to  4 then 8 then 16 and then 32 and so on .. 
        so that the no of elements we search will decrease by a greater extent whencompared to LINEAR SEARCH .
-  ##  ------> for this searching technique the array on which we perform searching is should be sorted .
+  ##  ------> for this search technique the array on which we perform searching should be sorted .
        
 https://www.geeksforgeeks.org/jump-search/   (for further explanation you can also refer this link )
 
