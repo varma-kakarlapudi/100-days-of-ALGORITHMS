@@ -33,7 +33,7 @@ https://www.techiedelight.com/binary-search/  (for clearing understanding you ca
 @ DAY 3 :
 JUMP SEARCH :
  
-       It is another searching technique whose timecomplexity is almost siilar to BINARY SEARCH . 
+       It is another searching technique whose timecomplexity is almost similar to BINARY SEARCH . 
        Here in this search we jump from 2 to  4 then 8 then 16 and then 32 and so on .. 
        so that the no of elements we search will decrease by a greater extent whencompared to LINEAR SEARCH .
   ##  ------> for this searching technique the array on which we perform searching is should be sorted .
@@ -57,3 +57,12 @@ BUBBLE SORT :
         There are various algorithms which can do this same work in less time ..lets discuss them on later days.
      
  https://www.geeksforgeeks.org/bubble-sort/    (for further explanation you can also refer this link )
+ 
+ @ DAY 6 :
+ 
+ STRING REDUCTION :
+ 
+        Here we'll have to remove the letters when the i and (i+1)th  index have same ascii values .
+        from this we can learn how to remove elements froma string either modifying the same string or 
+        editing substring printing the substring ..
+        you can refer the Text-file in Day 6 folder for detailed understanding..!!
